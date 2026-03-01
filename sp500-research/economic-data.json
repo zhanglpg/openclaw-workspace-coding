@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-03-01T04:27:30.541736",
+  "data_date": "2026-03-01",
+  "source": "Federal Reserve Bank of St. Louis (FRED)",
+  "source_url": "https://fred.stlouisfed.org",
+  "indicators": {
+    "federal_funds_rate": {
+      "name": "Federal Funds Rate",
+      "value": 3.64,
+      "unit": "%",
+      "period": "2026-01-01",
+      "previous_period": "2025-12-01",
+      "previous_value": 3.72,
+      "change": -0.08,
+      "frequency": "monthly",
+      "series_id": "FEDFUNDS"
+    },
+    "cpi_inflation": {
+      "name": "CPI Inflation (All Urban Consumers)",
+      "yoy_pct": 2.39,
+      "mom_pct": 0.17,
+      "cpi_index": 326.588,
+      "unit": "% YoY",
+      "period": "2026-01-01",
+      "frequency": "monthly",
+      "series_id": "CPIAUCSL",
+      "note": "CPI-U, seasonally adjusted; YoY = year-over-year, MoM = month-over-month"
+    },
+    "unemployment_rate": {
+      "name": "Unemployment Rate",
+      "value": 4.3,
+      "unit": "%",
+      "period": "2026-01-01",
+      "previous_period": "2025-12-01",
+      "previous_value": 4.4,
+      "change": -0.1,
+      "frequency": "monthly",
+      "series_id": "UNRATE",
+      "note": "Civilian unemployment rate, seasonally adjusted"
+    },
+    "gdp_growth_rate": {
+      "name": "Real GDP Growth Rate",
+      "value": 1.4,
+      "unit": "% annualized",
+      "period": "2025-10-01",
+      "previous_period": "2025-07-01",
+      "previous_value": 4.4,
+      "frequency": "quarterly",
+      "series_id": "A191RL1Q225SBEA",
+      "note": "Percent change from preceding quarter, SAAR"
+    },
+    "consumer_confidence": {
+      "name": "University of Michigan Consumer Sentiment",
+      "value": 56.4,
+      "unit": "index (1966 Q1 = 100)",
+      "period": "2026-01-01",
+      "previous_period": "2025-12-01",
+      "previous_value": 52.9,
+      "change": 3.5,
+      "frequency": "monthly",
+      "series_id": "UMCSENT",
+      "note": "Higher = more optimistic consumers; historical avg ~85"
+    }
+  }
+}
