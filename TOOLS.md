@@ -38,3 +38,22 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## 🛠️ Tool Preferences
+
+### Gemini CLI (Default for Q&A)
+
+**Priority:** Use Gemini CLI first for any question or general task.
+
+```bash
+PATH="/usr/sbin:/usr/bin:/bin:/sbin:$PATH" gemini "Your prompt here"
+```
+
+**Fallback:** If Gemini CLI fails, use built-in model provider (`bailian/qwen3.5-plus`).
+
+**Known Issues:**
+- Don't specify `--model gemini-2.0-flash` explicitly (thinking config bug)
+- Use default model selection (let CLI pick)
+- PATH must include `/usr/sbin` for `sysctl`
+
+**Auth:** OAuth personal (zhanglpg@gmail.com) — already configured
