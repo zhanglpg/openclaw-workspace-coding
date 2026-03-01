@@ -49,7 +49,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 PATH="/usr/sbin:/usr/bin:/bin:/sbin:$PATH" gemini "Your prompt here"
 ```
 
-**Fallback:** If Gemini CLI fails, use built-in model provider (`bailian/qwen3.5-plus`).
+**Fallback:** If Gemini CLI fails, use `bailian/kimi-k2.5` or `bailian/glm-5`.
 
 **Known Issues:**
 - Don't specify `--model gemini-2.0-flash` explicitly (thinking config bug)
